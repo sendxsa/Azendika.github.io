@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/DBA.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/todolist.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning" href="#">QuickLearnsDB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="homePage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="MaterialPageDBD.html">
+                Learn
+              </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/fox.jpg" width="40" height="40" class="rounded-circle">
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="profilePage.html">Edit Profile</a></li>
+                <li><a class="dropdown-item" href="Sign Up.html">Log Out</a></li>
+              </ul>
+            </li>
+          </ul>
+          <br>
+        </div>
+      </div>
+      </div>
+    </nav>
+     <!--Material!-->
+    <section id ="Materials">
+        <div class="container">
+            <div class="row">
+                <div class="text-white">
+                    <h1>Database Administrator</h1>
+                </div>
+                <div class="row py-5">
+                    <div class="col-lg-8 mx-auto">
+                      <div class="card mb-4">
+                        <div class="card-body pb-md-5">
+                          <h4 class="mb-4">Transaction Management (Database dan Table)</h4>
+                          <div class="dropdown text-lg-start">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              Choose Topic
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="databaseAdministration.html">Transaction Management (Database dan Table)</a></li>
+                              <li><a class="dropdown-item" href="Transaction Management(Login dan User).html">Transaction Management(Login dan User)</a></li>
+                            </ul>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeNZlpQSHMt3FpvjwD_I6ThuyKvWwdECDP09-xSkzcE2etYXw/viewform" target="_blank">
+                              <button class="btn text-center btn-primary mb-3" id="quicktest">Quick Test</button>
+                            </a>
+                            <a href="document/Transaction Management (Database dan Table).docx" download>
+                              <button class="btn text-center btn-primary mb-3" id="quicktest">Download material</button>
+                            </a>
+                          </div>
+                          <br>
+                          <div class="custom-scrollbar-css p-2">
+                            <div class="p1">
+                            <p class="font-italic text-lg-start">Transaction Management merupakan sebuah unit yang secara logis yang ada pada pemrosesan DBMS yang 
+                            memerlukan satu atau lebih operasi agar dapat mengakses sebuah database. </p>
+                            <p>Ada beberapa operasi yang biasanya dilakukan dalam melakukan pemrosesan DBMS yaitu :</p>
+                            <ul id ="p2">
+                              <li>Membuat server baru.</li>
+                              <li>Membuat sebuah database baru dengan cara create, alter, dan drop.</li>
+                              <li>Membuat scheme baru dengan create, alter, dan drop</li>
+                              <li>Membuat tabel, login, dan user dengan cara create, alter, dan drop.</li>
+                            </ul>
+                            <p>Pada topik ini kita akan membahas bagaimana cara untuk membuat sebuah database ataupun tabel baru dengan menggunakan syntax.</p>
+                            <p>Ada beberapa syntax umum yang dipakai untuk membuat database ataupun table yaitu create (digunakan untuk membuat sebuah database/table baru), 
+                            alter (digunakan untuk mengubah ataupun menambahkan argument) dan drop (digunakan untuk menghapus database/tabel yang telah dibuat).</p>
+                            <br>
+                            <p><strong>1. Database</strong></p>
+                            <p>Berikut adalah syntax yang paling sering digunakan untuk membuat sebuah database yang baru.</p>
+                            <p><strong>CREATE DATABASE</strong></p>
+                            <img src="images/img8.png" id ="img1" alt="Create database">
+                            <p><strong>DROP DATABASE</strong></p>
+                            <img src="images/img9.png" id ="img1" alt="Drop database">
+                            <br>
+                            <br>
+                            <p><strong>2. Table</strong></p>
+                            <p><strong>CREATE TABLE</strong></p>
+                            <p>Berikut adalah syntax yang sering digunakan dalam membuat sebuah tabel pada database.</p>
+                            <img src="images/img10.png" id ="img1" alt="Create database">
+                            <strong>DROP TABLE</strong></p>
+                            <img src="images/img11.png" id ="img1" alt="Drop database">
+                            <br>
+                            <br>
+                            <p><strong>3. Alter Table</strong></p>
+                            <p>Untuk menambahkan kolom baru pada sebuah tabel dapat menggunakan syntax sebagai berikut.</p>
+                            <img src="images/img12.png" id ="img1" alt="Drop database">
+                            <p>Untuk menghapus kolom pada sebuah tabel dapat menggunakan syntax sebagai berikut.</p>
+                            <img src="images/img13.png" id ="img1" alt="Drop database">
+                            <p>Untuk mengubah tipe data pada sebuah kolom dapat menggunakan syntax sebagai berikut.</p>
+                            <img src="images/img14.png" id ="img1" alt="Drop database">
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      
+            </div>
+            <div class="col justify-content-center">
+              <div class="wrapper">
+              <header>Todo List</header>
+              <div class="inputField">
+                <input type="text" placeholder="Add your new todo">
+                <button><i class="fas fa-plus"></i></button>
+              </div>
+              <ul class="todoList">
+                <!-- data are comes from local storage -->
+              </ul>
+              <div class="footer">
+                <span>You have <span class="pendingTasks"></span> pending tasks</span>
+                <button>Clear All</button>
+              </div>
+            </div>
+            <script src="js/todolist.js"></script>
+          </div>
+          <div class="calendar">
+            <div class="calendar-header">
+              <span class="month-picker" id="month-picker">February</span>
+              <div class="year-picker">
+                <span class="year-change" id="prev-year">
+                  <pre><</pre>
+                </span>
+                <span id="year">2021</span>
+                <span class="year-change" id="next-year">
+                  <pre>></pre>
+                </span>
+              </div>
+            </div>
+            <div class="col justify-content-center">
+            <div class="calendar-body">
+              <div class="calendar-week-day">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+              </div>
+              <div class="calendar-days"></div>
+            </div>
+            <div class="calendar-footer">
+              </div>
+            </div>
+            <div class="month-list"></div>
+          </div>
+          <script src="js/app.js"></script>
+            
+        </div>
+    </section>
+  <!--last materials-->
+    <!--footer-->
+    <footer class ="bg-white fixed-bottom" id = "footer">
+      <div class="text-center">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">Learns</a>
+      </div>
+      <div class="contact text-center">Contact Us: <u>+87732345231</u></div>
+      <br>
+      <ul class="social-icons">
+        <li>
+          <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+        </li>
+      </ul>
+    <footer>
+    <!--last footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>

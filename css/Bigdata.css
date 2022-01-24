@@ -1,0 +1,78 @@
+body {
+  background-color: beige;
+}
+#Materials {
+  height: 100%;
+  background-color: #022d36;
+}
+.custom-scrollbar-js,
+.custom-scrollbar-css {
+  height: 700px;
+  width: 100%;
+}
+/* Custom Scrollbar using CSS */
+.custom-scrollbar-css {
+  overflow-y: scroll;
+}
+
+/* scrollbar width */
+.custom-scrollbar-css::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+/* scrollbar track */
+.custom-scrollbar-css::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+/* scrollbar handle */
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background-image: linear-gradient(to top, #00d2ff 0%, #3a7bd5 100%);
+}
+.text-white {
+  text-align: center;
+  margin-top: 100px;
+}
+.p1 {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 200%;
+}
+#p2 {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 250%;
+}
+#p3 {
+  position: relative;
+  bottom: 100px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+#p4 {
+  text-align: justify;
+  text-justify: inter-word;
+}
+#img1 {
+  position: relative;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+}
+#footer {
+  position: inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.text-center {
+  margin-top: 15px;
+  text-align: center;
+}
